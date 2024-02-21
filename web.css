@@ -1,0 +1,1042 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,700;1,800;1,900&family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">);
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    scrollbar-width: none;
+background-color:rgb(224, 224, 224);
+    overflow-x: hidden;
+    
+    
+font-family: 'Poppins', sans-serif;
+
+overflow-x: hidden;
+
+}
+
+
+
+
+/*navbar*/
+
+.topbar{
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: rgb(31, 30, 30);
+    display: flex;
+    flex: 1;
+  max-height: auto;
+    justify-content: space-between;
+    align-items: center;
+  
+
+
+   
+}
+
+.topbar ul{
+    
+    display: flex;
+    align-items: center;
+    margin-inline: 50px 50px;
+    gap: 18px;
+    list-style: none;
+    text-decoration: none;
+    .topbar li{
+        margin: 0 30px;
+    }
+
+}
+.topbar ul .active{}
+    
+.Logo{
+
+position: absolute;
+top: -30px;
+max-height: 190px;
+  max-width: 9rem;
+}
+
+
+   
+.topbar ul a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 800px;}
+   
+.navlinks{
+  z-index: 6;
+    position: fixed;
+   display: flex;
+   top: 50px;
+right: 290px;
+   align-items: center;
+   padding: 10px 4%;
+   justify-content: right;
+   width: 400px;
+   border-radius: 20px;
+    transition: color 0.3s,background-color 0.4s, border-color 0.3s; /* Add a transition for smooth color change */
+}
+
+/* Add these styles for the scrolled state */
+.navlinks.scrolled {
+    border-color: rgb(240, 239, 239); /* Change border color on scroll */
+   color: white;
+    background: rgb(255, 255, 255); /* Change background color on scroll */
+}
+
+.menuicon{opacity: 0;
+
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:850px){
+.service-info{
+    width: 140px;
+}
+
+.service span{
+    width: 150px;
+}
+    .service img{
+        width: 200px;
+    }
+
+    h1{
+        font-size: 4w;
+    }
+
+    .Faqpage h1{
+        box-shadow: 0,0,0,5 rgba(0,0,0,0.3);
+       
+        font-size: 20px;
+    }
+    .homepage h1 span:first-child{
+        font-size: 10vw;
+    } 
+    body{
+        overflow-x: hidden;
+        
+       
+    }
+    .topbar ul {
+        margin-inline: 0;
+    }
+
+   
+    
+    .tobar{
+        padding: 0;
+    }
+    .Logo{
+        position: absolute;
+        top: -30px;
+        left: 30px;
+    }
+    .menuicon{
+        top: 40px;
+        z-index: 150;
+        opacity: 100%;}
+    .navlinks li a{
+       
+        
+        
+        color: rgb(224, 224, 224);
+        font-weight: 800;
+    }
+.navlinks{
+    transition: all 0.8s ease-in-out;
+    margin-top: -900px;
+   position: absolute;
+   right: 0;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: right;
+    background: rgb(1, 21, 94);
+}
+.mobile-menu{
+    z-index: 100;
+   width: 100%;
+    border-bottom-right-radius:8% ;
+    background: rgba(1, 0, 0, 0.566); /* Semi-transparent white background */
+    backdrop-filter: blur(30px); /* Apply a blur effect */
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 0;
+}
+.navlinks li{
+    margin: 30px auto;
+}
+
+.homepage{
+
+}
+.whatwedo p , h2{
+    padding-left: 20px;
+}
+
+.services{
+    font-size: 20px;
+}
+
+.about-page{
+    max-width: 250px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+
+}
+
+
+
+/*hover styles*/
+.navlinks ul li:hover{
+    padding: 45px 9%;
+
+ 
+    font-weight: bold;
+    background-color: rgb(255, 255, 0);
+    color: #00008b;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.card label {
+    background-color: #ebeff4;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #0a4fa3; /* Change to your desired color */
+    transition: color 0.3s ease-in-out; /* Smooth transition effect */
+  }
+  
+  .card label:hover {
+    
+    background-color: #000e3c;
+    color:  rgb(255, 251, 0); /* Change to your desired hover color */
+  }
+
+
+div .readme button:hover{
+    box-shadow: 0 0 10px rgba(249, 246, 246, 0.3);
+    transform: translateY(-3px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*hover styles*/
+.topbar .navhe{
+    width: 100%;
+    max-height:100px ;
+}
+.topbar ul li:hover{
+    border-radius: 12px;
+    padding: 2px 2%;
+    font-weight: bold;
+    background-color: rgb(255, 251, 0);
+    color: #00008b;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+  @media screen(min-width:700px;){
+    .companyoverview{
+        margin-right: 50px;
+    }
+    .card{
+   
+   
+  
+        line-height: 1.8;
+    }
+    p{
+        font-size: 18px;
+        white-space:inherit ;
+    }
+    
+  }
+.homepage{
+    color: aliceblue;
+ 
+    max-height: 150vh;
+    padding-bottom: 120px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background:linear-gradient(#222cbc 10%,#1b0245 70%, #00008b 110% );
+    
+    background-repeat: no-repeat;
+}
+
+
+/*.textinfo{
+    max-width: 550px;
+    margin-inline: 10px 10px;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns:1fr  ;
+
+}*/
+.card{
+   
+   
+  
+    line-height: 1.3;
+}
+
+#ch{
+    display: none;
+}
+
+#ch:checked ~ .morecontent{
+    display: block;
+}
+
+#ch:checked ~ label{
+    display: none;
+}
+
+
+label{
+    display: inline-block;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: #000;
+    padding: 3px 13px;
+    margin-top: 12px;
+}
+
+.morecontent{
+    display: none;
+}
+.textinfo{
+    display: flex;
+margin-inline: 20px 20px;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+    row-gap: 20px;
+    min-width: 100px;
+    max-width: 600px;
+}
+
+h1{
+    
+    text-transform: capitalize;
+    align-items: center;
+    
+    margin-top: -15px;
+    font-size: 5vw;
+    
+    flex-direction: column;
+}
+
+p{
+    font-size: 16.5px;
+    white-space:inherit ;
+}
+
+h1 span:first-child{
+    font-size: 6vw;
+    text-transform: uppercase;
+}
+h1 span:last-child{
+    
+}
+.textinfo h1{
+    font-size: 50px;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+
+}
+.image img{
+  width:30rem;
+}
+
+
+
+/* animation*/
+
+h1  span{
+    background-size: 0%;
+    background: linear-gradient(aliceblue,aliceblue );
+    background-repeat: no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    
+}
+
+
+h1 span:last-child{
+    animation: textcolor2 2.5s linear infinite alternate;
+
+}
+
+@keyframes textcolor2 {
+
+    0%{
+        background-size: 0%;
+
+    }
+
+    40%{
+        background-size: 50%;
+    }
+
+    100%{
+        background-size: 100%;
+    }
+}
+
+
+
+/*page2*/
+
+.about-page{
+    
+   display: grid;
+   padding-bottom:50px ;
+   gap: 25px;
+   grid-template-columns: 1fr;
+   
+}
+
+
+
+
+
+.companyoverview{
+    box-shadow: 0 0 12px rgba(35, 35, 35, 0.3);
+    margin-top: 50px;
+padding: 15px 15px;
+    background-color: rgb(255, 255, 255);
+    margin-inline: 10px 10px;
+    margin-right: ;
+    display: grid;
+    line-break: auto;
+    justify-content: right;
+    
+}
+.companyoverview p{
+  
+    display: grid;
+    min-width: 100%;
+   max-width:  600px;
+   font-size: 16px;
+    line-height: 24px;
+
+    opacity: 0;
+     
+}
+
+.companyoverview p .delay2{
+    opacity: 1;
+    transition: ease-in;
+    animation-delay: 0.15s;
+}
+
+.companyoverview h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+    justify-content: left;
+
+    display: grid;
+opacity: 0;
+}
+.companyoverview h2 .rightin{
+    opacity: 1;
+}
+
+.whatwedo h2{
+    justify-content: left;
+    font-size: 25px;
+    margin-bottom: 15px;
+    display: grid;
+    transition: ease-in;
+opacity: 0;
+}
+h2 .leftin animate__animated{
+    opacity: 1;
+
+}
+.whatwedo p{
+    min-width: auto;
+    max-width:  600px;
+   
+    display: grid;
+   font-size: 16px;
+    line-height: 24px;
+
+    opacity: 0;
+     
+}
+
+.whatwedo .delay animate__animated{
+    animation-delay: 0.15s;
+    opacity: 1;
+}
+
+.whatwedo{
+    box-shadow: 0 0 12px rgba(31, 31, 31, 0.3);
+    line-break: auto;
+    padding: 15px 15px;
+    background-color: rgb(255, 255, 255);
+    margin-inline: 10px 10px;
+    display: grid;
+    max-width: 600px;
+    justify-content: left;
+    min-width: 100%;
+    
+}
+
+/*services*/
+.services h1{
+    text-transform: uppercase;
+    min-width: 600px;
+    max-width: 1500px;
+    margin-inline: 10px;
+    font-size: 30px;
+    display: block;
+    justify-content: left;
+    position: absolute;
+    left: 0;
+}
+.services h1 hr{
+    
+    
+        height: 2px;
+    background-color: #b2b2b2; /* Gray color */
+    border: none; /* Remove the default border */
+    margin: 20px 0px;
+   
+
+}
+.services{
+    width: 90%;
+    color: rgb(32, 32, 32);
+    display: flex;
+    flex: 1;
+  max-width: 400px;
+  min-width:200px ;
+    flex-direction: column;
+    
+    align-items: center;
+    row-gap: 40px;
+}
+ div hr{
+   
+    height: 1.5px;
+background-color: #b2b2b2; /* Gray color */
+border: none; /* Remove the default border */
+margin: 8px 0px; }
+.servicegrid{
+ 
+
+   display: flex;
+   justify-content: center;
+   
+   
+}
+
+.hidden{
+    display: none;
+}
+
+.services div{
+   margin-inline: 20px;
+   
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    text-size-adjust: 100%;
+    flex-direction: column;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 650;
+    text-transform:capitalize;
+    cursor: pointer;
+    transition: 0.5s;
+  
+
+}
+
+.services .servicegrid div:hover {
+    color: var(green); /* Change the color on hover to a different one */
+}
+
+#serviceid:hover{
+    color: #0335d9;
+}
+
+
+.Faqpage{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-inline: 20px;
+    
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.acc1{
+    background-color: none;
+}
+.Faqpage h1{
+    margin-bottom: 50px;
+  font-size: 40px;
+    color: #333;
+}
+
+.Faqpage .tab{
+    position: relative;
+    background-color: #fff;
+    padding: 0 20px 20px ;
+    box-shadow: 0 0 12px rgba(31, 31, 31, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.Faqpage .tab input{
+
+    appearance: none;
+}
+
+.Faqpage .tab label{
+    color: #333;
+    background: none;
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+
+.Faqpage .tab label::after{
+    content: '+';
+    position: absolute;
+    right: 20px;
+    font-size: 2em;
+    color: #b4b4b4;
+    transition: transform 1s;
+}
+
+.Faqpage .tab:hover label::after{
+    color: #000;
+}
+.Faqpage .tab input:checked ~ label::after{
+    transform: rotate(135deg);
+}
+
+.Faqpage .tab label h2{
+    padding: 5px 2%;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eae6e6;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    margin-left: -20px;
+    margin-right: 20px;
+
+}
+
+.Faqpage .tab label h3{
+    position: relative;
+
+    color: #333;
+    z-index: 10;
+
+    
+}
+
+.Faqpage .tab .content{
+    max-height:0 ;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.Faqpage .tab input:checked ~ .content{
+    max-height:100vh ;
+
+}
+
+.Faqpage .tab .content p{
+    margin-left: 39px;
+    line-height: 27px;
+    font-size: 17px;
+position: relative;
+padding: 10px 0;
+color: #333;
+z-index: 10;
+}
+
+.Faqpage .tab input:checked ~ label h2{
+    background-color: #fff;
+    color: #b4b4b429;
+    position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+font-size: 8rem;
+justify-content: flex-end;
+padding: 20px;
+}
+
+
+.conatctuspage{
+    
+    display: grid;
+max-height: 600px;
+min-height: 400px;
+    width: 100%;
+   
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+.contact{
+    row-gap: 20px;
+    justify-content: space-between;
+padding: 40px 9%;
+    display: grid;
+    background-color: #c2c2c4;
+}
+
+.contact-grid{
+  
+   
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+}
+.contact-grid .phone, .email{
+    margin-top: 20px;
+}
+.email img{
+    margin-bottom: -4px;
+    height: 20px;
+    width: 20px;
+}
+ul{
+    list-style-type: none;
+    list-style: none;  
+}
+
+.email a{
+    position: absolute;
+    margin-top: 2%;
+}
+.contact-grid a{
+    font-weight: 500;
+    margin-left: 10px;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+     
+}
+.phone a{
+    position: absolute;
+    margin-top: 5px;
+}
+
+.contactinfo h2{
+   
+}
+/* Styles for big screens (greater than 600px) */
+@media screen and (max-width: 600px) {
+
+    .contactlogo{
+        display: none;
+    }
+    .services h1{
+        font-size: 28px;
+       min-width: 150px;
+       margin-bottom:30px ;
+    }
+.servicegrid{
+    max-width: 200px;
+}
+    .services div{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .contact-grid{
+        padding-top: 30px;
+       margin-bottom: 60px;}
+   .service-info{
+    max-width: 200px;
+   }
+      
+       .email a{
+        margin-top: 1.5px;
+       }
+    .conatctuspage{
+        
+    
+           
+       
+      
+            
+         
+            grid-template-columns:  1fr;
+    }
+    
+}
+@media screen and (min-width: 600px){
+    .services {
+        margin-left: 400px;
+justify-content: ;
+align-items: center;
+width: 100%;
+    }
+    .services h1 hr{
+    
+    
+        height: 2px;
+    background-color: #b2b2b2; /* Gray color */
+    border: none; /* Remove the default border */
+    margin: 20px 0px;
+   width: 240%;
+
+}
+
+    .services div hr{
+        
+        
+         width: 258%;
+         display: flex;
+         justify-content: end;
+         text-size-adjust: 100%;
+         flex-direction: column;
+         font-size: 30px;
+         font-weight: 650px;
+         text-transform:capitalize;
+         cursor: pointer;
+         transition: 0.5s;
+       
+     
+     }
+.conatctuspage h1{
+    font-size: 30px;
+    color: #f1f1f1;
+    margin-top: 20px;
+}
+     .conatctuspage{
+        
+        background: url(img/eaglelog.svg);
+background-repeat: no-repeat;  
+background-size:  500px;
+flex: 3fr 1fr 1fr ;
+}
+
+.Pitchus{
+    margin-right: -30px;
+    
+}
+
+
+}
+
+
+.contactinfo .phone::before{
+   
+  margin-bottom: -4px;
+    list-style-type: none;
+    align-items: center;
+    content: "";
+    background: url('img/contact_call.svg') no-repeat center;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+    display: inline-block; /* Add this if the pseudo-element is not displaying */
+    margin-right: 5px;
+    filter: brightness(0) invert(0);
+}
+
+
+.location{
+    
+  margin-top: 25px;
+  list-style-type: none;
+  align-items: center;
+  content: "";
+  background: url('img/contact_location.svg') no-repeat center;
+  background-size: contain;
+  width: 22px;
+  height: 22px;
+  display: inline-block; /* Add this if the pseudo-element is not displaying */
+  margin-right: 5px;
+  filter: brightness(0) invert(0);
+}
+
+
+.location a{
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: lowercase;
+    margin-left: 30px;
+    max-width: 580px;
+    min-width: 280px;
+    flex-direction: row;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Pitchus{
+    color: #fff;
+    background-color: #333;
+    padding: 40px 9%;
+    display: grid;
+    justify-content: flex-start;
+  
+
+}
+
+.cFormInput {
+    display: inline-block;
+    position: relative;
+    max-width: 240px;
+    vertical-align: top;
+    font-size: 14px;
+    color: #f4ed0b;
+   
+    font-weight: 400;
+   
+    word-wrap: break-word;
+  
+    outline: none;
+    white-space: nowrap;
+    opacity: 1;
+    transition: all ease-in-out;
+
+}
+
+.cFormInput {
+    cursor: text;
+   
+}
+
+.text button{
+padding: 0;
+margin: 0;
+-webkit-tap-highlight-color: transparent;
+appearance: none;
+cursor: pointer;
+outline: none;
+display: block;
+border-radius: 20px;
+border: 0;
+box-shadow: none;
+width: 100px;
+height: 35px;
+font-size: 12px;
+line-height: 35px;
+text-align: center;
+font-weight: bold;
+
+color: #fff;
+background: linear-gradient(to right, #303030 0%, #0335d9 100%);
+margin-top: 15px;}
+
+
+.reveal{
+    transform: translateY(120px);
+    position: relative;
+    opacity: 0;
+    transition: all 0.8s ease-in;
+}
+
+.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.contactlogo{
+    position: absolute;
+    left: 50px;
+    bottom: -1600px;
+   width: 30px;
+height: 40px;    
+padding: ;
+}
+
+.contactlogo img{
+width: 20rem;
+height: 25rem; 
+}
+
+.cFormInput{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.cFormInput {
+    color: #b2b2b2;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: inherit;
+    color: inherit;
+    cursor: text;
+}
+#name{
+  
+    max-width: 29%;
+}
+#emailadress{
+    max-width: 33%;
+}
+
+#aboutyourcompany{
+    max-width: 60%;   
+}
+
+::placeholder{
+    color: #f8e944;
+}
