@@ -198,14 +198,20 @@ right: 290px;
 .services{
     font-size: 20px;
 }
-
+.companyoverview{
+    justify-content: center;
+}
 .about-page{
-    max-width: 250px;
+    max-width: 400px;
+    min-width: 250px;
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
 }
-
+.whatwedo{
+    max-width: 300px;
+    justify-content: center;
+}
 
 }
 
@@ -809,7 +815,7 @@ ul{
    }
       
        .email a{
-        margin-top: 1.5px;
+        margin-top: -6px;
        }
     .conatctuspage{
         
@@ -875,6 +881,14 @@ flex: 3fr 1fr 1fr ;
     
 }
 
+.Pitchus h2{
+    margin-top: 20px;
+}
+
+.email a{
+    margin-top: -2px;
+}
+
 
 }
 
@@ -937,6 +951,9 @@ flex: 3fr 1fr 1fr ;
 
 }
 
+.Pitchus p{
+    margin-top: 20px;
+}
 .cFormInput {
     display: inline-block;
     position: relative;
