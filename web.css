@@ -815,7 +815,7 @@ ul{
    }
       
        .email a{
-        margin-top: -4px;
+        margin-top: -1px;
        }
     .conatctuspage{
         
@@ -886,7 +886,7 @@ flex: 3fr 1fr 1fr ;
 }
 
 .email a{
-    margin-top: -2px;
+    margin-top: -1px;
 }
 
 
@@ -952,7 +952,6 @@ flex: 3fr 1fr 1fr ;
 }
 
 .Pitchus p{
-    margin-bottom:20px;
     margin-top: 20px;
 }
 .cFormInput {
