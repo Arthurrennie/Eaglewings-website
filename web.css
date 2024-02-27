@@ -770,8 +770,7 @@ ul{
 }
 
 .email a{
-    position: absolute;
-    margin-top: 1%;
+    
 }
 .contact-grid a{
     font-weight: 500;
@@ -814,8 +813,9 @@ ul{
     max-width: 200px;
    }
       
-       .email a{
-        margin-top: -1px;
+      .email a{
+        position: absolute;
+        margin-top: 1px;
        }
     .conatctuspage{
         
